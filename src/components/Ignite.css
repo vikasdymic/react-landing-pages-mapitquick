@@ -1,0 +1,21 @@
+.igniteSection {
+  background: url('../img/sunset.jpg') center/cover no-repeat;
+}
+.igniteSection .igniteCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.igniteCards .card .cardIcon {
+  display: none;
+}
+
+.headingOneIgnite {
+  padding-bottom: 0;
+}
+
+@media (max-width: 425px) {
+  .igniteSection .igniteCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

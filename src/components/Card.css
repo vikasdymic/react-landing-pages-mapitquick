@@ -1,0 +1,40 @@
+.card {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  justify-items: center;
+  align-items: center;
+
+  justify-self: center;
+  align-self: flex-start;
+
+  text-align: center;
+
+  grid-auto-flow: row;
+
+  grid-gap: 1rem;
+
+  color: #fff;
+}
+.card .cardIcon {
+  width: auto;
+  height: 82px;
+}
+.card .cardDetails {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card .cardDetails .cardLine {
+  border-width: 0px;
+  height: 5px;
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    #2cc219 0%,
+    #21ad0e 51%,
+    #37cf23 100%
+  );
+  margin: 0 auto;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,800i,900,900i');
+
+.heroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.heroSection .heroContent .heroContentTitle {
+  font-size: 4rem;
+}
+
+.heroButton {
+  margin-top: 1rem;
+}
+
+.heroContentTitle {
+  color: white;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroSection .heroContent .heroContentCopy {
+  padding: 2rem 1rem;
+  margin: 3rem 10rem;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  line-height: 2rem;
+}
+
+.starRating {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: #333;
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.starRating img {
+  width: 35px;
+  height: auto;
+}
+@media (max-width: 425px) {
+  .heroSection .heroContent .heroContentTitle {
+    font-size: 3rem;
+  }
+  .heroSection .heroContent .heroContentCopy {
+    margin: 2rem 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .heroSection .heroContent .heroContentTitle {
+    font-size: 2.5rem;
+  }
+  .heroSection .heroContent .heroContentCopy {
+    margin: 1rem 7rem;
+  }
+}
+@media (max-width: 425px) {
+  .heroSection .heroContent {
+    padding-top: 7rem;
+  }
+}
