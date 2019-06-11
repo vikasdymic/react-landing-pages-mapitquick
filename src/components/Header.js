@@ -9,7 +9,7 @@ class Header extends Component {
       <header>
         <nav>
           <div className='navLeft'>
-            <a href='https://thesulfurgroup.com'>
+            <a href=''>
               {/* <img className='logo' src={logo} alt='The Sulfur Group' /> */}
             </a>
           </div>
