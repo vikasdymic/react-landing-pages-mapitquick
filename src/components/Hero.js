@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './Hero.css';
+import HeroImage from '../img/hero-item.png';
 import Button from './Button';
-import star from '../img/star.png'
+import star from '../img/star.png';
 
 class Hero extends Component {
   render() {
     return (
       <section className='heroSection'>
         <div className='heroContent'>
+          <img className='heroImage' src={HeroImage}></img>
           <h1 className='heroContentTitle'>
             Get accurate directions <span className='magicalLine'>FAST.</span>
           </h1>

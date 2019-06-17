@@ -17,13 +17,14 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background: url('../img/hero.jpg');
+  /* background: url('../img/hero.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #111;
   text-align: center;
 }
 .heroSection .heroContent .heroContentTitle {
@@ -43,6 +44,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.heroImage {
+  width: 50%;
+  max-width: 650px;
+  height: auto;
+  margin-bottom: 2.8rem;
 }
 
 .heroSection .heroContent .heroContentCopy {
